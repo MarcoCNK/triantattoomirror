@@ -23,7 +23,7 @@ MESA: error: DRM_VIRTGPU_RESOURCE_CREATE_BLOB failed with Permission denied
 MESA: error: Failed to create virtgpu AddressSpaceStream
 MESA: error: vulkan: Failed to get host connection
 libva error: vaGetDriverNames() failed with unknown libva error
-[201984:0402/213028.956270:ERROR:viz_main_impl.cc(186)] Exiting GPU process due to errors during initialization
+[266099:0402/232611.254359:ERROR:viz_main_impl.cc(186)] Exiting GPU process due to errors during initialization
 MESA: info: virtgpu backend not enabling VIRTGPU_PARAM_3D_FEATURES
 MESA: info: virtgpu backend not enabling VIRTGPU_PARAM_CAPSET_QUERY_FIX
 MESA: info: virtgpu backend not enabling VIRTGPU_PARAM_RESOURCE_BLOB
@@ -49,3 +49,30 @@ MESA: error: DRM_VIRTGPU_RESOURCE_CREATE_BLOB failed with Permission denied
 MESA: error: Failed to create virtgpu AddressSpaceStream
 MESA: error: vulkan: Failed to get host connection
 libva error: vaGetDriverNames() failed with unknown libva error
+[266130:0402/232611.699724:ERROR:viz_main_impl.cc(186)] Exiting GPU process due to errors during initialization
+MESA: info: virtgpu backend not enabling VIRTGPU_PARAM_3D_FEATURES
+MESA: info: virtgpu backend not enabling VIRTGPU_PARAM_CAPSET_QUERY_FIX
+MESA: info: virtgpu backend not enabling VIRTGPU_PARAM_RESOURCE_BLOB
+MESA: info: virtgpu backend not enabling VIRTGPU_PARAM_HOST_VISIBLE
+MESA: info: virtgpu backend not enabling VIRTGPU_PARAM_CROSS_DEVICE
+MESA: info: virtgpu backend not enabling VIRTGPU_PARAM_CONTEXT_INIT
+MESA: info: virtgpu backend not enabling VIRTGPU_PARAM_SUPPORTED_CAPSET_IDs
+MESA: info: virtgpu backend not enabling VIRTGPU_PARAM_EXPLICIT_DEBUG_NAME
+MESA: info: virtgpu backend not enabling VIRTGPU_PARAM_CREATE_FENCE_PASSING
+MESA: info: virtgpu backend not enabling VIRTGPU_PARAM_CREATE_GUEST_HANDLE
+MESA: error: DRM_IOCTL_VIRTGPU_GET_CAPS failed with Permission denied
+MESA: error: DRM_IOCTL_VIRTGPU_CONTEXT_INIT failed with Invalid argument, continuing without context...
+MESA: error: DRM_VIRTGPU_RESOURCE_CREATE_BLOB failed with Permission denied
+MESA: error: Failed to create virtgpu AddressSpaceStream
+MESA: error: vulkan: Failed to get host connection
+MESA: error: DRM_VIRTGPU_RESOURCE_CREATE_BLOB failed with Permission denied
+MESA: error: Failed to create virtgpu AddressSpaceStream
+MESA: error: vulkan: Failed to get host connection
+MESA: error: DRM_VIRTGPU_RESOURCE_CREATE_BLOB failed with Permission denied
+MESA: error: Failed to create virtgpu AddressSpaceStream
+MESA: error: vulkan: Failed to get host connection
+MESA: error: DRM_VIRTGPU_RESOURCE_CREATE_BLOB failed with Permission denied
+MESA: error: Failed to create virtgpu AddressSpaceStream
+MESA: error: vulkan: Failed to get host connection
+libva error: vaGetDriverNames() failed with unknown libva error
+[266134:0402/232611.887010:ERROR:command_buffer_proxy_impl.cc(128)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.

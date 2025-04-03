@@ -26,7 +26,7 @@ app.disable('If-None-Match')
 app.use(express.json({limit: '3mb' }))
 app.use(express.urlencoded({ extended: true }))
 
-// app.use('/api/status', statusRouter)
+app.use('/api/status', statusRouter)
 
 app.use('/api/auth', authRouter)
 
