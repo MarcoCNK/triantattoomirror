@@ -40,6 +40,6 @@ app.use('/api/cart', cartRouter)
 // THE MIDDLEWARE OF ERROR AT LAST
 app.use(errorHandlerMiddleware)
 
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
     console.log(`Example app listening on local host  http://localhost:${port}`)
 })
