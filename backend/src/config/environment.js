@@ -13,6 +13,7 @@ const ENVIRONMENT = {
     EMAIL_PASSWORD: process.env.EMAIL_PASSWORD || '',
     EMAIL_USER: process.env.EMAIL_USER || '',
     JWT_SECRET: process.env.JWT_SECRET,
+    MONGO_URL: process.env.MONGO_URL,
     MYSQL: {
         HOST: process.env.MYSQL_HOST,
         USER: process.env.MYSQL_USER,

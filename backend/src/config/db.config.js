@@ -1,10 +1,9 @@
 import mongoose from 'mongoose'
 import createProducts from '../helpers/scripts/seedMongod.js'
 import Product from '../models/product.models.js';
+import ENVIRONMENT from "./environment.js"
 
-const MONGO_URL = 'mongodb://localhost:27017/mydatabase'
-
-mongoose.connect(MONGO_URL, {
+mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
